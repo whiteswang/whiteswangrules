@@ -1,0 +1,28 @@
+# US Ecommerce Services Ruleset (YAML Format)
+payload:
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,ssl-images-amazon.com
+  - DOMAIN-SUFFIX,ebay.com
+  - DOMAIN-SUFFIX,ebaystatic.com
+  - DOMAIN-SUFFIX,ebayimg.com
+  - DOMAIN-SUFFIX,ebayrtm.com
+  - DOMAIN-SUFFIX,walmart.com
+  - DOMAIN-SUFFIX,walmartimages.com
+  - DOMAIN-SUFFIX,bestbuy.com
+  - DOMAIN-SUFFIX,bbycaststatic.com
+  - DOMAIN-SUFFIX,target.com
+  - DOMAIN-SUFFIX,targetimg1.com
+  - DOMAIN-SUFFIX,etsy.com
+  - DOMAIN-SUFFIX,newegg.com
+  - DOMAIN-SUFFIX,bhphotovideo.com
+  - DOMAIN-SUFFIX,zappos.com
+  - DOMAIN-SUFFIX,6pm.com
+  - DOMAIN-SUFFIX,nike.com
+  - DOMAIN-SUFFIX,adidas.com
+  - DOMAIN-SUFFIX,stockx.com
+  - DOMAIN-SUFFIX,goat.com
