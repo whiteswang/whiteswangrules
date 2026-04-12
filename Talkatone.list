@@ -1,0 +1,27 @@
+# ==========================================
+# 规则名称: Talkatone
+# 适用平台: Loon
+# 规则描述: 包含核心域名、依赖验证及语音 IP 网段
+# ==========================================
+
+# > Talkatone Core Domains
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-KEYWORD,talkatone
+
+# > Dependencies & Validation
+DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,agkn.com
+DOMAIN-SUFFIX,ip-api.com
+
+# > Voice & Media Servers (IP-CIDR)
+IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,204.145.72.0/24,no-resolve
