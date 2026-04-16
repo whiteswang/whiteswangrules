@@ -1,0 +1,20 @@
+payload:
+  # 国内银行
+  - DOMAIN-KEYWORD,icbc
+  - DOMAIN-KEYWORD,ccb
+  - DOMAIN-KEYWORD,abchina
+  - DOMAIN-KEYWORD,boc
+  - DOMAIN-KEYWORD,psbc
+  - DOMAIN-KEYWORD,bankcomm
+  - DOMAIN-KEYWORD,cmbchina
+  - DOMAIN-KEYWORD,spdb
+  - DOMAIN-KEYWORD,citicbank
+  - DOMAIN-KEYWORD,cib
+  - DOMAIN-KEYWORD,pingan
+  
+  # 银联与支付
+  - DOMAIN-SUFFIX,unionpay.com
+  - DOMAIN-SUFFIX,unionpaysecure.com
+  - DOMAIN-SUFFIX,95516.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,tenpay.com
