@@ -1,36 +1,31 @@
-# US Financial Services
-# 包含了 Chase, Amex, Citi, BoA, Wells Fargo, Schwab, Fidelity 等
+# NAME: USBank-Loon-Enhanced
+# FORMAT: Loon Rule
+# BASE: whiteswangrules USBank-Loon.list
+# DESCRIPTION: US Financial Complete Rules
 
+# =========================
 # Major Banks
+# =========================
+
 DOMAIN-SUFFIX,chase.com
 DOMAIN-SUFFIX,chasecdn.com
-DOMAIN-SUFFIX,jpmorganchase.com
 DOMAIN-SUFFIX,jpmorgan.com
+DOMAIN-SUFFIX,jpmorganchase.com
 DOMAIN-KEYWORD,chase
-
-DOMAIN-SUFFIX,americanexpress.com
-DOMAIN-SUFFIX,amex.com
-DOMAIN-SUFFIX,amex-services.com
-DOMAIN-SUFFIX,aexp-static.com
-DOMAIN-KEYWORD,amex
-DOMAIN-KEYWORD,americanexpress
 
 DOMAIN-SUFFIX,bankofamerica.com
 DOMAIN-SUFFIX,bofa.com
-DOMAIN-SUFFIX,mbna.com
 DOMAIN-KEYWORD,bankofamerica
+
+DOMAIN-SUFFIX,wellsfargo.com
+DOMAIN-SUFFIX,wf.com
+DOMAIN-KEYWORD,wellsfargo
 
 DOMAIN-SUFFIX,citi.com
 DOMAIN-SUFFIX,citibank.com
 DOMAIN-SUFFIX,citicards.com
 DOMAIN-SUFFIX,citigroup.com
-DOMAIN-SUFFIX,citirewards.com
-DOMAIN-KEYWORD,citibank
-
-DOMAIN-SUFFIX,wellsfargo.com
-DOMAIN-SUFFIX,wellsfargomedia.com
-DOMAIN-SUFFIX,wf.com
-DOMAIN-KEYWORD,wellsfargo
+DOMAIN-KEYWORD,citi
 
 DOMAIN-SUFFIX,usbank.com
 DOMAIN-SUFFIX,usbpayment.com
@@ -38,7 +33,6 @@ DOMAIN-KEYWORD,usbank
 
 DOMAIN-SUFFIX,discover.com
 DOMAIN-SUFFIX,discovercard.com
-DOMAIN-SUFFIX,dfs.com
 DOMAIN-KEYWORD,discover
 
 DOMAIN-SUFFIX,capitalone.com
@@ -48,45 +42,100 @@ DOMAIN-SUFFIX,barclays.com
 DOMAIN-SUFFIX,barclaycardus.com
 DOMAIN-SUFFIX,barclaysus.com
 DOMAIN-KEYWORD,barclays
-DOMAIN-KEYWORD,barclaycard
 
+# =========================
+# Additional Banks
+# =========================
+
+DOMAIN-SUFFIX,pnc.com
+DOMAIN-KEYWORD,pnc
+
+DOMAIN-SUFFIX,truist.com
+DOMAIN-KEYWORD,truist
+
+DOMAIN-SUFFIX,tdbank.com
+DOMAIN-KEYWORD,tdbank
+
+DOMAIN-SUFFIX,53.com
+DOMAIN-KEYWORD,fifththird
+
+DOMAIN-SUFFIX,citizensbank.com
+DOMAIN-KEYWORD,citizensbank
+
+DOMAIN-SUFFIX,huntington.com
+DOMAIN-KEYWORD,huntington
+
+DOMAIN-SUFFIX,regions.com
+DOMAIN-KEYWORD,regions
+
+# =========================
+# Credit Card
+# =========================
+
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,amex.com
+DOMAIN-SUFFIX,aexp.com
+DOMAIN-KEYWORD,amex
+
+# =========================
 # Brokerage
+# =========================
+
 DOMAIN-SUFFIX,schwab.com
-DOMAIN-SUFFIX,schwabcdn.com
-DOMAIN-SUFFIX,schwabplan.com
 DOMAIN-KEYWORD,schwab
 
 DOMAIN-SUFFIX,fidelity.com
 DOMAIN-SUFFIX,fidelity.net
-DOMAIN-SUFFIX,fmr.com
-DOMAIN-SUFFIX,401k.com
 DOMAIN-KEYWORD,fidelity
 
-# Fintech
-DOMAIN-SUFFIX,sofi.com
-DOMAIN-SUFFIX,soficdn.net
-DOMAIN-SUFFIX,sofi.glassboxdigital.io
-DOMAIN-SUFFIX,revolut.com
-DOMAIN-SUFFIX,ally.com
-DOMAIN-SUFFIX,alliantcreditunion.org
-DOMAIN-SUFFIX,alliantcreditunion.com
-DOMAIN-KEYWORD,alliantcreditunion
+DOMAIN-SUFFIX,vanguard.com
+DOMAIN-KEYWORD,vanguard
 
-# Credit Bureaus & Tools
+DOMAIN-SUFFIX,robinhood.com
+DOMAIN-KEYWORD,robinhood
+
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-KEYWORD,interactivebrokers
+
+# =========================
+# Payment / Fintech
+# =========================
+
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-KEYWORD,paypal
+
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-KEYWORD,venmo
+
+DOMAIN-SUFFIX,cash.app
+DOMAIN-SUFFIX,cash.me
+DOMAIN-KEYWORD,cashapp
+
+DOMAIN-SUFFIX,square.com
+DOMAIN-SUFFIX,squareup.com
+DOMAIN-KEYWORD,square
+
+DOMAIN-SUFFIX,marcus.com
+DOMAIN-KEYWORD,marcus
+
+DOMAIN-SUFFIX,zellepay.com
+DOMAIN-SUFFIX,plaid.com
+
+# =========================
+# Credit Service
+# =========================
+
 DOMAIN-SUFFIX,experian.com
-DOMAIN-SUFFIX,experian.net
-DOMAIN-SUFFIX,experiancs.com
-DOMAIN-KEYWORD,experian
 DOMAIN-SUFFIX,transunion.com
-DOMAIN-SUFFIX,transunion.net
-DOMAIN-KEYWORD,transunion
-DOMAIN-KEYWORD,equifax
-DOMAIN-SUFFIX,chexsystems.com
-DOMAIN-KEYWORD,chexsystems
-DOMAIN-SUFFIX,intuit.com
+DOMAIN-SUFFIX,equifax.com
 DOMAIN-SUFFIX,creditkarma.com
 DOMAIN-SUFFIX,myfico.com
 
-# Infra
-DOMAIN-SUFFIX,zellepay.com
-DOMAIN-SUFFIX,plaid.com
+# =========================
+# Fintech
+# =========================
+
+DOMAIN-SUFFIX,sofi.com
+DOMAIN-SUFFIX,ally.com
+DOMAIN-SUFFIX,revolut.com
