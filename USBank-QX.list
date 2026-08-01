@@ -1,7 +1,9 @@
 # US Financial Services
-# 包含了 Chase, Amex, Citi, BoA, Wells Fargo, Schwab, Fidelity 等
 
+# =================
 # Major Banks
+# =================
+
 HOST-SUFFIX,chase.com
 HOST-SUFFIX,chasecdn.com
 HOST-SUFFIX,jpmorganchase.com
@@ -13,7 +15,6 @@ HOST-SUFFIX,amex.com
 HOST-SUFFIX,amex-services.com
 HOST-SUFFIX,aexp-static.com
 HOST-KEYWORD,amex
-HOST-KEYWORD,americanexpress
 
 HOST-SUFFIX,bankofamerica.com
 HOST-SUFFIX,bofa.com
@@ -48,9 +49,38 @@ HOST-SUFFIX,barclays.com
 HOST-SUFFIX,barclaycardus.com
 HOST-SUFFIX,barclaysus.com
 HOST-KEYWORD,barclays
-HOST-KEYWORD,barclaycard
 
+
+# =================
+# Additional Banks
+# =================
+
+HOST-SUFFIX,pnc.com
+HOST-KEYWORD,pnc
+
+HOST-SUFFIX,truist.com
+HOST-KEYWORD,truist
+
+HOST-SUFFIX,tdbank.com
+HOST-KEYWORD,tdbank
+
+HOST-SUFFIX,53.com
+HOST-KEYWORD,fifththird
+
+HOST-SUFFIX,citizensbank.com
+HOST-KEYWORD,citizensbank
+
+HOST-SUFFIX,huntington.com
+HOST-KEYWORD,huntington
+
+HOST-SUFFIX,regions.com
+HOST-KEYWORD,regions
+
+
+# =================
 # Brokerage
+# =================
+
 HOST-SUFFIX,schwab.com
 HOST-SUFFIX,schwabcdn.com
 HOST-SUFFIX,schwabplan.com
@@ -62,31 +92,67 @@ HOST-SUFFIX,fmr.com
 HOST-SUFFIX,401k.com
 HOST-KEYWORD,fidelity
 
-# Fintech
-HOST-SUFFIX,sofi.com
-HOST-SUFFIX,soficdn.net
-HOST-SUFFIX,sofi.glassboxdigital.io
-HOST-SUFFIX,revolut.com
-HOST-SUFFIX,ally.com
-HOST-SUFFIX,alliantcreditunion.org
-HOST-SUFFIX,alliantcreditunion.com
-HOST-KEYWORD,alliantcreditunion
+HOST-SUFFIX,vanguard.com
+HOST-KEYWORD,vanguard
 
-# Credit Bureaus & Tools
+HOST-SUFFIX,robinhood.com
+HOST-KEYWORD,robinhood
+
+HOST-SUFFIX,interactivebrokers.com
+HOST-KEYWORD,interactivebrokers
+
+
+# =================
+# Payment / Fintech
+# =================
+
+HOST-SUFFIX,paypal.com
+HOST-SUFFIX,paypalobjects.com
+HOST-KEYWORD,paypal
+
+HOST-SUFFIX,venmo.com
+HOST-KEYWORD,venmo
+
+HOST-SUFFIX,cash.app
+HOST-SUFFIX,cash.me
+HOST-KEYWORD,cashapp
+
+HOST-SUFFIX,square.com
+HOST-SUFFIX,squareup.com
+HOST-KEYWORD,square
+
+HOST-SUFFIX,marcus.com
+HOST-KEYWORD,marcus
+
+
+# =================
+# Credit / Identity
+# =================
+
 HOST-SUFFIX,experian.com
 HOST-SUFFIX,experian.net
-HOST-SUFFIX,experiancs.com
 HOST-KEYWORD,experian
+
 HOST-SUFFIX,transunion.com
 HOST-SUFFIX,transunion.net
 HOST-KEYWORD,transunion
+
 HOST-KEYWORD,equifax
+
 HOST-SUFFIX,chexsystems.com
 HOST-KEYWORD,chexsystems
-HOST-SUFFIX,intuit.com
+
 HOST-SUFFIX,creditkarma.com
 HOST-SUFFIX,myfico.com
 
-# Infra
+
+# =================
+# Financial Infrastructure
+# =================
+
 HOST-SUFFIX,zellepay.com
 HOST-SUFFIX,plaid.com
+
+HOST-SUFFIX,sofi.com
+HOST-SUFFIX,revolut.com
+HOST-SUFFIX,ally.com
