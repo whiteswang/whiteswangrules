@@ -94,3 +94,27 @@ payload:
   # --- Infrastructure ---
   - DOMAIN-SUFFIX,zellepay.com
   - DOMAIN-SUFFIX,plaid.com
+
+  # PayPal
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  - DOMAIN-KEYWORD,paypal
+
+# Venmo
+  - DOMAIN-SUFFIX,venmo.com
+  - DOMAIN-KEYWORD,venmo
+
+# Cash App
+  - DOMAIN-SUFFIX,cash.app
+  - DOMAIN-SUFFIX,cash.me
+  - DOMAIN-KEYWORD,cashapp
+
+# Square Payment
+  - DOMAIN-SUFFIX,square.com
+  - DOMAIN-SUFFIX,squareup.com
+  - DOMAIN-KEYWORD,square
+
+# Goldman Sachs Marcus
+  - DOMAIN-SUFFIX,marcus.com
+  - DOMAIN-SUFFIX,marcusbygoldmansachs.com
+  - DOMAIN-KEYWORD,marcus
